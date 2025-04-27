@@ -1,0 +1,64 @@
+@font-face{
+    font-family: parastoo;
+    src: url(../font/Parastoo.woff2) format('woff2'),
+          url(../font/sahel.woff2)  format('woff2'),
+          url(../font/Tanha.eot)     format('eot');
+          font-weight: normal;
+
+}/* در اینجا با این دستور می توانیم کامنت کنیم 
+در این دستور فونت را از فایل که پوشه بود فراخوانی کردیم */
+@font-face{
+    font-family: parastoo;
+    src: url(../font/Parastoo.woff2) format('woff2'),
+          url(../font/sahel.woff2)  format('woff2'),
+          url(../font/Tanha.eot)     format('eot');
+          font-weight: 300;
+
+}
+
+
+.right-bar{
+    margin-top: 60px;
+    padding-top: 7.5px;
+    background-color:rgb(123, 236, 17);
+    width: 160px;
+    height: 590px;
+}
+.click{
+   margin-top: 25px;
+   margin-bottom: 50px;
+   text-size-adjust: 9px;
+   transition: all ease-in-out 250ms;
+}     
+.click:hover{
+    
+    background-color: rgb(182, 253, 229);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    
+    border-radius: 0px 30px 30px 0px;
+}
+ul{
+    padding-right:  9px;
+}
+ul li{
+    list-style: none;
+}
+
+.right-bar ul li a {
+    text-decoration: none;
+}
+
+
+
+
+
+/*.right-bar ul{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+
+    align-items: center;
+}    استفاده از فلکس*/
